@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.box_model {
+    background-color: rgb(14, 82, 46);
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+
+    border: solid 5px black;
+}
+
+
+
+
+html {
+    font-size: 10px;
+}
+
+.body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.encabezado {
+    background-image: url(./imagenes/fondo.jpeg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+
+}
+
+.menuSuperior {
+    list-style: none;
+    text-align: center;
+}
+
+.menuSuperior li {
+    display: inline-block;
+
+}
+
+.menuSuperior a{
+    text-decoration: none;
+    color: rgb(24, 16, 6);
+    font-weight: 700;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+
+.texto {
+    font-family: "Work Sans", sans-serif;
+    color: black;
+}
+
+.contenido{
+    background-color: brown;
+    padding: 2rem;
+    width: 70%;
+    float: left;
+}
+
+.contenido_imagen{
+    background-color: beige;
+    width: 50%;
+
+}
+
+.contenido_imagen img{
+    width: auto;
+    box-shadow: 5px 5px rgba(0, 128, 0, 0.478);
+}
+.contenido_sugerencias{
+    background-color: beige;
+    border: solid 8px black;
+    float: right;
+}
+}

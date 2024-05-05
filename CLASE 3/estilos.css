@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+</style>* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.encabezado {
+    background-image: url(./imagenes/fondo\ d.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    height: 30vh;
+
+}
+
+.menuSuperior {
+    list-style: none;
+    text-align: center;
+}
+
+.menuSuperior li {
+    display: inline-block;
+
+}
+
+.menuSuperior a {
+    text-decoration: none;
+    color: rgb(24, 16, 6);
+    font-weight: 700;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+
+.texto {
+    font-family: "Work Sans", sans-serif;
+    color: black;
+}

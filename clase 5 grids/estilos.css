@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+#grilla {
+    display: grid;
+    grid-template-areas:
+        "nav header header"
+        "nav producto publicidad"
+        "nav servicios servicios"
+        "footer footer footer"
+
+    ;
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 25% auto 15%;
+    row-gap: 1rem;
+    column-gap: 2rem;
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(10, 97, 10);
+    grid-area: header;
+
+}
+
+footer {
+    background-color: rgb(118, 32, 32);
+    grid-area: footer;
+
+}
+
+#producto {
+    background-color: rgb(187, 115, 7);
+    grid-area: producto;
+}
+
+#servicio {
+    background-color: rgb(89, 156, 86);
+    grid-area: servicios;
+}
+
+.navegacion {
+    background-color: rgb(203, 203, 23);
+    grid-area: nav;
+}
+
+.aside {
+    background-color: rgb(119, 28, 28);
+    grid-area: publicidad;
+}
+
+
+
+.borde {
+    border: 1px solid black;
+}

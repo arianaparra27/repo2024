@@ -10,7 +10,7 @@
 
 <body>
     <header class="encabezado">
-        <nav>
+        <nav>=
             <ul class="menuSuperior">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="personajes.html">Personajes</a></li>
@@ -21,29 +21,37 @@
         <h1 class="titulo">Mi web</h1>
     </header>
     <section class="contacto">
+        <h2> Contacto</h2>
         <form action="" method="post" class="formulario">
-            <div class="form_group">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" required>
-            </div>
-            <div class="form_group">
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido" required>
-            </div>
-            <div class="form_group">
-                <label for="clave">Contraseña</label>
-                <input type="password" name="clave" id="clave">
-            </div>
-            <div class="form_group">
-                <label for="edad">Edad</label>
-                <input type="number" name="edad" id="edad">
-            </div>
-            <div class="form_group">
-                <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" id="mensaje" cols="10" rows="2"></textarea>
+            <fieldset class="fieldset">
+                <legend class="legend"> Informacion del contacto</legend>
 
-            </div>
+                <div class="form_group">
+                    <label for="nombre" class="label">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
 
+                <div class="form_group">
+                    <label for="apellido" class="label">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="clave" class="label">Contraseña</label>
+                    <input type="password" name="clave" id="clave">
+                </div>
+
+                <div class="form_group">
+                    <label for="edad" class="label">Edad</label>
+                    <input type="number" name="edad" id="edad" min="18" max="95">
+                </div>
+
+                <div class="form_group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="10" rows="2"></textarea>
+
+                </div>
+            </fieldset>
 
 
 

@@ -1,29 +1,39 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
 }
 
-.formulario {
-    width: 90%;
+.formulario{
+    background-color: antiquewhite;
+    width: 80%;
     margin: 0 auto;
+}
 
+.fieldset{
+    border: 1px solid rgb(40, 42, 40);
+    padding: 2rem;
+    margin-bottom: 2rem;
 
 }
+.legend{
+    font-weight: bold;
+}
+
 .form_group{
-  margin-bottom: 1rem;
-  display: block;;
-
+    margin-bottom: 1.2rem;
 }
 
+.label{
+    display: block;
+}
+
+input, textarea,select{
+    width: 100%;
+
+}
 .submit-enviar{
     padding: 1rem 2rem;
-    background-color: green;
+    background-color: rgb(27, 83, 27);
     border: none;
-    border-radius: 0.6rem;
-    cursor: pointer;
-
-}
-.submit-enviar:hover{
-    background-color: greenyellow;
-
+    border-radius: 0.5rem;
 }

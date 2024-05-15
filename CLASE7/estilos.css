@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.formulario {
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+.form_group{
+  margin-bottom: 1rem;
+  display: block;;
+
+}
+
+.submit-enviar{
+    padding: 1rem 2rem;
+    background-color: green;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+
+}
+.submit-enviar:hover{
+    background-color: greenyellow;
+
+}

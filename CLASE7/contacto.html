@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav>
+            <ul class="menuSuperior">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#">Nosotros</a></li>
+            </ul>
+        </nav>
+        <h1 class="titulo">Mi web</h1>
+    </header>
+    <section class="contacto">
+        <form action="" method="post" class="formulario">
+            <div class="form_group">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+            <div class="form_group">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" required>
+            </div>
+            <div class="form_group">
+                <label for="clave">Contraseña</label>
+                <input type="password" name="clave" id="clave">
+            </div>
+            <div class="form_group">
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad">
+            </div>
+            <div class="form_group">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="10" rows="2"></textarea>
+
+            </div>
+
+
+
+
+            <input type="submit" class="submit-enviar" value="Enviar formulario">
+        </form>
+    </section>
+</body>
+
+</html>

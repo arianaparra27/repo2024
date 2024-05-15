@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Movile First*/
+body {
+    background-color: white;
+}
+
+.tienda {
+    background-color: rgb(13, 44, 13);
+    text-align: center;
+    padding: 2rem;
+}
+
+.tienda img {
+    width: 60%;
+}
+
+.comunidad {
+    background-color: rgb(149, 149, 163);
+    padding: 2rem;
+}
+
+.comunidad img {
+    width: 80%;
+}
+
+.texto {
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+.footer {
+    height: 15vh;
+    background-color: red;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+/*Tableta*/
+@media(min-width:768px) {
+    body {
+        background-color: violet;
+    }
+
+    .tienda {
+        background-color: blanchedalmond;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .tienda div {
+        width: 30%;
+        background-color: blanchedalmond;
+    }
+
+    .tienda img {
+        width: 90%;
+    }
+
+    .comunidad {
+        background-color: red;
+        display: flex;
+    }
+}
+
+/*Escritorio*/
+
+@media( min-width: 992px){
+.tienda {
+        flex-wrap: nowrap;
+    }
+}
+
+/*Pantalla grande*/
+
+@media( min-width: 1200px){
+
+
+    body{
+        background-color: yellow;
+    }
+}

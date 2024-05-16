@@ -31,9 +31,20 @@ input, textarea,select{
     width: 100%;
 
 }
+.input:focus{
+    background-color: blueviolet;
+}
 .submit-enviar{
     padding: 1rem 2rem;
     background-color: rgb(27, 83, 27);
     border: none;
     border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.submit-enviar:hover{
+    background-color: grey;
+}
+.submit-enviar:focus{
+    color: yellowgreen;
 }

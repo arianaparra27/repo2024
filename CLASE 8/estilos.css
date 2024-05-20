@@ -1,0 +1,51 @@
+.gradientes {
+    height: 20vh;
+    background-image: radial-gradient(rgb(9, 129, 9), rgb(193, 193, 31));
+
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.box-ejemplo {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    transform: skew(25deg);
+}
+
+.ejemplo div {
+    width: 100px;
+    height: 100px;
+    border: solid 1px;
+    transition: all 2s;
+
+}
+
+.ejemplo div:hover {
+    height: 200px;
+    width: 200px;
+    padding: 2rem;
+    background-color: blue;
+}
+
+.ejmplo2 {
+    padding-top: 2rem;
+}
+
+.input {
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+
+}
+
+.input:focus{
+    width: 200px;
+    font-size: 20px;
+}

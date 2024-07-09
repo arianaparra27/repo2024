@@ -1,0 +1,55 @@
+html {
+    font-size: 10px;
+
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    color: rgb(106, 75, 75);
+    margin: 0;
+    padding: 2rem;
+
+}
+
+#titulo {
+    color: rgb(31, 67, 31),
+
+}
+
+.parrafo {
+    font-size: 1.6rem;
+
+}
+
+button {
+    background-color: rgb(89, 142, 94);
+    color: #3a0f0f;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0, 3s;
+
+}
+
+button:hover {
+    background-color: rgb(23, 50, 23);
+
+}
+
+
+/*clase para cambiar de color*/
+
+.cambiarColor{
+    color: rgb(127, 23, 23);
+}
+
+.nuevaClase {
+    background-color: aqua;
+    color: rgb(22, 13, 13);
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+
+}
